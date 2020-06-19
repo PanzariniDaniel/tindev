@@ -16,7 +16,7 @@ io.on('connection', socket => {
   connectedUsers[user] = socket.id;
 });
 
-mongoose.connect('mongodb+srv://oministack:oministack@cluster0-jfejd.mongodb.net/oministack8?authSource=admin&replicaSet=Cluster0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true', {
+mongoose.connect('mongodb+srv:...STRING DE CONEXÃO', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
