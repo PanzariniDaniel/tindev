@@ -49,7 +49,7 @@ Tindev é um projeto clone do Tinder modificado para fins de estudo, voltado par
   ```  
 
 ```sh
-  # Instale as dependências da API
+  # Instale as dependências
   $ cd server
   $ npm install / yarn install
 
@@ -59,21 +59,21 @@ Tindev é um projeto clone do Tinder modificado para fins de estudo, voltado par
 
 - ## Web
 ```sh
-  # Instale as dependências da API
+  # Instale as dependências
   $ cd web
   $ npm install / yarn install
 
-  # Inicie a API
+  # Inicie o projeto web
   $ npm start / yarn start
 ```
 
 - ## Mobile
 ```sh
-  # Instale as dependências da API
+  # Instale as dependências
   $ cd mobile
   $ npm install / yarn install
 
-  # Inicie a API
+  # Inicie o projeto mobile
   $ npm start / yarn start
 ```
 
