@@ -16,7 +16,7 @@ io.on('connection', socket => {
   connectedUsers[user] = socket.id;
 });
 
-mongoose.connect('mongodb+srv:...STRING DE CONEXÃO', {
+mongoose.connect(`${process.env.MONGO_CONN}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -32,6 +32,6 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-server.listen(3333, () => {
-  console.log('app listening on 3333');
+server.listen(process.env.PORT, () => {
+  console.log('app listening on ', process.env.PORT);
 });
